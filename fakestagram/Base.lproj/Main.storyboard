@@ -47,7 +47,7 @@
 
                     <tabBarItem key="tabBarItem" title="Item 2" image="camera" id="ygy-XD-3IH" userLabel="Create"/>
 
-                    <tabBarItem key="tabBarItem" title="" image="camera" id="ygy-XD-3IH" userLabel="Create"/>
+                    //<tabBarItem key="tabBarItem" title="" image="camera" id="ygy-XD-3IH" userLabel="Create"/>
 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PfC-sh-ILb" userLabel="First Responder" sceneMemberID="firstResponder"/>
