@@ -23,4 +23,7 @@ struct Account: Codable {
             deviceModel: UIDevice.modelName
         )
     }
+    func toAuthor() -> Author{
+        return Author(id: id ?? "0000", name: name)
+    }
 }

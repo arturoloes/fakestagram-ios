@@ -9,10 +9,16 @@
 import UIKit
 import WebKit
 
-class SVGView: UIView {
-    let image: WKWebView = WKWebView()
+class SVGView: UIView, WKNavigationDelegate {
     
-    override init(frame: CGRect) {
+    let webSVGView: WKWebView = {
+        let wvk = WKWebView()
+        wvk.scrollView.isScrollEnabled = false
+        wvk.translatesAutoresizingMaskIntoConstraints = false
+        return wvk
+    }()
+    
+    override init (frame: CGRect){
         super.init(frame: frame)
         setupView()
     }
@@ -22,6 +28,24 @@ class SVGView: UIView {
         setupView()
     }
     
-    func setupView() {
+    private func setupView() {
+        webSVGView.navigationDelegate = self
+        addSubview(webSVGView)
+        NSLayoutConstraint.activate([
+            webSVGView.topAnchor.constraint(equalTo: self.topAnchor),
+            webSVGView.trailingAnchor.constraint(equalTo: self.trailingAnchor),
+            webSVGView.leadingAnchor.constraint(equalTo: self.leadingAnchor),
+            webSVGView.bottomAnchor.constraint(equalTo: self.bottomAnchor)
+            ])
     }
+    
+    func loadContent(from url: URL) {
+        let req = URLRequest(url: url)
+        webSVGView.load(req)
+    }
+    
+    func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!){
+        webView.evaluateJavaScript("window.scrollTo(385,0)", completionHandler: nil)
+    }
+    
 }

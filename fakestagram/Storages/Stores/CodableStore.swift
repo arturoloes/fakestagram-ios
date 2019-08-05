@@ -11,15 +11,15 @@ import Foundation
 struct CodableStore<T> where T: Codable {
     let filename: String
     
-    var filePath: URL? {
-        var filePath = StorageType.permanent.folder
-        filePath.appendPathComponent(filename)
-        return filePath
+    var fileUrl: URL? {
+        var fileUrl = StorageType.permanent.url
+        fileUrl.appendPathComponent(filename)
+        return fileUrl
     }
     
     func load() -> T? {
-        guard let path = self.filePath, let data = try? Data(contentsOf: path) else {
-            print("Could not load data from \(String(describing: self.filePath))")
+        guard let path = self.fileUrl, let data = try? Data(contentsOf: path) else {
+            print("Could not load data from \(String(describing: self.fileUrl))")
             return nil
         }
         do {
@@ -31,7 +31,7 @@ struct CodableStore<T> where T: Codable {
     }
     
     func save(data dataSource: T) {
-        guard let data = try? JSONEncoder().encode(dataSource), let path = self.filePath else { return }
+        guard let data = try? JSONEncoder().encode(dataSource), let path = self.fileUrl else { return }
         do {
             try data.write(to: path)
         } catch let err {

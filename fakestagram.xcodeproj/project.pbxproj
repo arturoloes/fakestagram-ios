@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041CA6272299A1EA006A3C9B /* ComentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CA6262299A1EA006A3C9B /* ComentsViewController.swift */; };
+		041CA62A2299A279006A3C9B /* CreateCometClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CA6292299A279006A3C9B /* CreateCometClient.swift */; };
+		041CA62C2299A5B7006A3C9B /* Coment+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CA62B2299A5B7006A3C9B /* Coment+Post.swift */; };
+		041CA62E2299C75B006A3C9B /* ProfilePostsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CA62D2299C75B006A3C9B /* ProfilePostsClient.swift */; };
+		041CA6312299C7E3006A3C9B /* PostThumbnailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CA62F2299C7E3006A3C9B /* PostThumbnailCollectionViewCell.swift */; };
+		041CA6322299C7E3006A3C9B /* PostThumbnailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041CA6302299C7E3006A3C9B /* PostThumbnailCollectionViewCell.xib */; };
+		B320EF6C0366224979C9B12C /* Pods_fakestagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA19EFBF2C44598617CBB6F /* Pods_fakestagramTests.framework */; };
 		E04FB2DC2249F2AB00B81C8A /* CodableStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04FB2DB2249F2AB00B81C8A /* CodableStore.swift */; };
 		E04FB2DE2249F2D300B81C8A /* StorageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04FB2DD2249F2D300B81C8A /* StorageType.swift */; };
 		E04FB2E02249F42A00B81C8A /* ItemStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04FB2DF2249F42A00B81C8A /* ItemStorage.swift */; };
@@ -37,6 +44,23 @@
 		E0DDFA2E223E0EF2009EB136 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DDFA2D223E0EF2009EB136 /* TimelineViewController.swift */; };
 		E0DDFA31223E181C009EB136 /* PostDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DDFA2F223E181C009EB136 /* PostDetailViewController.swift */; };
 		E0DDFA32223E181C009EB136 /* PostDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DDFA30223E181C009EB136 /* PostDetailViewController.xib */; };
+		EF775C6D9BDF835DB3B3D92E /* Pods_fakestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2EED6C2B2DEA7C79B11CA6D /* Pods_fakestagram.framework */; };
+		FE25D327227CEDD3004BE2CF /* NotificationNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE25D326227CEDD3004BE2CF /* NotificationNames.swift */; };
+		FE25D32A227CF4FC004BE2CF /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE25D329227CF4FC004BE2CF /* ProfileViewController.swift */; };
+		FE3A4479226251B400E2C7E7 /* TimeLineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3A4478226251B400E2C7E7 /* TimeLineClient.swift */; };
+		FE84A3532273B474007BF7BB /* AccountClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE84A3522273B474007BF7BB /* AccountClient.swift */; };
+		FE84A3552273C39D007BF7BB /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE84A3542273C39D007BF7BB /* ImageStore.swift */; };
+		FE84A3572273C7B2007BF7BB /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE84A3562273C7B2007BF7BB /* DataStore.swift */; };
+		FE84A3592273DE9C007BF7BB /* Like.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE84A3582273DE9C007BF7BB /* Like.swift */; };
+		FE84A35B2273DF0F007BF7BB /* LikeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE84A35A2273DF0F007BF7BB /* LikeClient.swift */; };
+		FE9CC24B227DDC4E00FC0E27 /* ImageCacheStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9CC24A227DDC4E00FC0E27 /* ImageCacheStorage.swift */; };
+		FE9CC24D227DDCCF00FC0E27 /* CodableStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9CC24C227DDCCF00FC0E27 /* CodableStorage.swift */; };
+		FE9CC24F227DDCE800FC0E27 /* DataContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9CC24E227DDCE800FC0E27 /* DataContainer.swift */; };
+		FE9CC251227DDD1200FC0E27 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9CC250227DDD1200FC0E27 /* ImageCache.swift */; };
+		FE9CC253227DDE0D00FC0E27 /* ImageStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9CC252227DDE0D00FC0E27 /* ImageStorage.swift */; };
+		FED3D5932274A41E009139F3 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED3D5922274A41E009139F3 /* CameraViewController.swift */; };
+		FED3D5962274A6EB009139F3 /* UImage+Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED3D5952274A6EB009139F3 /* UImage+Base64.swift */; };
+		FED3D5982274BDFC009139F3 /* CreatePostClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED3D5972274BDFC009139F3 /* CreatePostClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +74,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		041CA6262299A1EA006A3C9B /* ComentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComentsViewController.swift; sourceTree = "<group>"; };
+		041CA6292299A279006A3C9B /* CreateCometClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCometClient.swift; sourceTree = "<group>"; };
+		041CA62B2299A5B7006A3C9B /* Coment+Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Coment+Post.swift"; sourceTree = "<group>"; };
+		041CA62D2299C75B006A3C9B /* ProfilePostsClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePostsClient.swift; sourceTree = "<group>"; };
+		041CA62F2299C7E3006A3C9B /* PostThumbnailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostThumbnailCollectionViewCell.swift; sourceTree = "<group>"; };
+		041CA6302299C7E3006A3C9B /* PostThumbnailCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostThumbnailCollectionViewCell.xib; sourceTree = "<group>"; };
+		0BA19EFBF2C44598617CBB6F /* Pods_fakestagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fakestagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FF1B7E80B40A3AF91E73F91 /* Pods-fakestagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fakestagramTests.debug.xcconfig"; path = "Target Support Files/Pods-fakestagramTests/Pods-fakestagramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D2472B2177E02580018382E /* Pods-fakestagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fakestagram.release.xcconfig"; path = "Target Support Files/Pods-fakestagram/Pods-fakestagram.release.xcconfig"; sourceTree = "<group>"; };
+		8102F2999F14020263220659 /* Pods-fakestagramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fakestagramTests.release.xcconfig"; path = "Target Support Files/Pods-fakestagramTests/Pods-fakestagramTests.release.xcconfig"; sourceTree = "<group>"; };
+		9A15E595C429EDF58567C55F /* Pods-fakestagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fakestagram.debug.xcconfig"; path = "Target Support Files/Pods-fakestagram/Pods-fakestagram.debug.xcconfig"; sourceTree = "<group>"; };
 		E04FB2DB2249F2AB00B81C8A /* CodableStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableStore.swift; sourceTree = "<group>"; };
 		E04FB2DD2249F2D300B81C8A /* StorageType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageType.swift; sourceTree = "<group>"; };
 		E04FB2DF2249F42A00B81C8A /* ItemStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemStorage.swift; sourceTree = "<group>"; };
@@ -84,6 +119,23 @@
 		E0DDFA2D223E0EF2009EB136 /* TimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
 		E0DDFA2F223E181C009EB136 /* PostDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailViewController.swift; sourceTree = "<group>"; };
 		E0DDFA30223E181C009EB136 /* PostDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostDetailViewController.xib; sourceTree = "<group>"; };
+		E2EED6C2B2DEA7C79B11CA6D /* Pods_fakestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fakestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE25D326227CEDD3004BE2CF /* NotificationNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationNames.swift; sourceTree = "<group>"; };
+		FE25D329227CF4FC004BE2CF /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FE3A4478226251B400E2C7E7 /* TimeLineClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineClient.swift; sourceTree = "<group>"; };
+		FE84A3522273B474007BF7BB /* AccountClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountClient.swift; sourceTree = "<group>"; };
+		FE84A3542273C39D007BF7BB /* ImageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
+		FE84A3562273C7B2007BF7BB /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		FE84A3582273DE9C007BF7BB /* Like.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Like.swift; sourceTree = "<group>"; };
+		FE84A35A2273DF0F007BF7BB /* LikeClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeClient.swift; sourceTree = "<group>"; };
+		FE9CC24A227DDC4E00FC0E27 /* ImageCacheStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheStorage.swift; sourceTree = "<group>"; };
+		FE9CC24C227DDCCF00FC0E27 /* CodableStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableStorage.swift; sourceTree = "<group>"; };
+		FE9CC24E227DDCE800FC0E27 /* DataContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataContainer.swift; sourceTree = "<group>"; };
+		FE9CC250227DDD1200FC0E27 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		FE9CC252227DDE0D00FC0E27 /* ImageStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStorage.swift; sourceTree = "<group>"; };
+		FED3D5922274A41E009139F3 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		FED3D5952274A6EB009139F3 /* UImage+Base64.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UImage+Base64.swift"; sourceTree = "<group>"; };
+		FED3D5972274BDFC009139F3 /* CreatePostClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +143,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF775C6D9BDF835DB3B3D92E /* Pods_fakestagram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,17 +151,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B320EF6C0366224979C9B12C /* Pods_fakestagramTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		041CA6252299A192006A3C9B /* Coments */ = {
+			isa = PBXGroup;
+			children = (
+				041CA6262299A1EA006A3C9B /* ComentsViewController.swift */,
+			);
+			path = Coments;
+			sourceTree = "<group>";
+		};
+		97759EBC243D2B322457163B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2EED6C2B2DEA7C79B11CA6D /* Pods_fakestagram.framework */,
+				0BA19EFBF2C44598617CBB6F /* Pods_fakestagramTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD3FA661CA1BDA1983D313D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A15E595C429EDF58567C55F /* Pods-fakestagram.debug.xcconfig */,
+				7D2472B2177E02580018382E /* Pods-fakestagram.release.xcconfig */,
+				0FF1B7E80B40A3AF91E73F91 /* Pods-fakestagramTests.debug.xcconfig */,
+				8102F2999F14020263220659 /* Pods-fakestagramTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E04FB2D72249F1E600B81C8A /* Storages */ = {
 			isa = PBXGroup;
 			children = (
 				E04FB2DA2249F27800B81C8A /* Stores */,
 				E04FB2DF2249F42A00B81C8A /* ItemStorage.swift */,
+				FE9CC24A227DDC4E00FC0E27 /* ImageCacheStorage.swift */,
+				FE9CC24C227DDCCF00FC0E27 /* CodableStorage.swift */,
+				FE9CC24E227DDCE800FC0E27 /* DataContainer.swift */,
+				FE9CC250227DDD1200FC0E27 /* ImageCache.swift */,
+				FE9CC252227DDE0D00FC0E27 /* ImageStorage.swift */,
 			);
 			path = Storages;
 			sourceTree = "<group>";
@@ -117,6 +204,8 @@
 			isa = PBXGroup;
 			children = (
 				E04FB2DB2249F2AB00B81C8A /* CodableStore.swift */,
+				FE84A3542273C39D007BF7BB /* ImageStore.swift */,
+				FE84A3562273C7B2007BF7BB /* DataStore.swift */,
 				E04FB2DD2249F2D300B81C8A /* StorageType.swift */,
 			);
 			path = Stores;
@@ -139,6 +228,7 @@
 				E0BB974C223F45EA00D028A1 /* Account.swift */,
 				E04FB2E12249F52900B81C8A /* AccountStorage.swift */,
 				E0BB9756223F6A3500D028A1 /* AccountRepo.swift */,
+				FE84A3522273B474007BF7BB /* AccountClient.swift */,
 			);
 			path = Account;
 			sourceTree = "<group>";
@@ -149,6 +239,8 @@
 				E0DDF9EF223DF640009EB136 /* fakestagram */,
 				E0DDFA04223DF642009EB136 /* fakestagramTests */,
 				E0DDF9EE223DF640009EB136 /* Products */,
+				AD3FA661CA1BDA1983D313D9 /* Pods */,
+				97759EBC243D2B322457163B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -164,6 +256,9 @@
 		E0DDF9EF223DF640009EB136 /* fakestagram */ = {
 			isa = PBXGroup;
 			children = (
+				041CA6252299A192006A3C9B /* Coments */,
+				FE25D328227CF4EA004BE2CF /* Profile */,
+				FED3D5942274A4AD009139F3 /* Camera */,
 				E0BB974B223F45DE00D028A1 /* Account */,
 				E0DDFA16223DFCB6009EB136 /* Post */,
 				E0DDFA2C223E0EDB009EB136 /* Timeline */,
@@ -181,6 +276,9 @@
 				E0BB9750223F57C400D028A1 /* Date+timestamp.swift */,
 				E0BB9754223F5EDA00D028A1 /* Name.swift */,
 				E0BB9752223F5DFB00D028A1 /* Names.plist */,
+				FED3D5952274A6EB009139F3 /* UImage+Base64.swift */,
+				041CA62B2299A5B7006A3C9B /* Coment+Post.swift */,
+				FE25D326227CEDD3004BE2CF /* NotificationNames.swift */,
 			);
 			path = fakestagram;
 			sourceTree = "<group>";
@@ -204,6 +302,10 @@
 				E0DDFA28223E03DC009EB136 /* Author.swift */,
 				E0DDFA2F223E181C009EB136 /* PostDetailViewController.swift */,
 				E0DDFA30223E181C009EB136 /* PostDetailViewController.xib */,
+				FE84A3582273DE9C007BF7BB /* Like.swift */,
+				FE84A35A2273DF0F007BF7BB /* LikeClient.swift */,
+				FED3D5972274BDFC009139F3 /* CreatePostClient.swift */,
+				041CA6292299A279006A3C9B /* CreateCometClient.swift */,
 			);
 			path = Post;
 			sourceTree = "<group>";
@@ -220,8 +322,28 @@
 			isa = PBXGroup;
 			children = (
 				E0DDFA2D223E0EF2009EB136 /* TimelineViewController.swift */,
+				FE3A4478226251B400E2C7E7 /* TimeLineClient.swift */,
 			);
 			path = Timeline;
+			sourceTree = "<group>";
+		};
+		FE25D328227CF4EA004BE2CF /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				FE25D329227CF4FC004BE2CF /* ProfileViewController.swift */,
+				041CA62D2299C75B006A3C9B /* ProfilePostsClient.swift */,
+				041CA62F2299C7E3006A3C9B /* PostThumbnailCollectionViewCell.swift */,
+				041CA6302299C7E3006A3C9B /* PostThumbnailCollectionViewCell.xib */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		FED3D5942274A4AD009139F3 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				FED3D5922274A41E009139F3 /* CameraViewController.swift */,
+			);
+			path = Camera;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +353,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0DDFA0A223DF642009EB136 /* Build configuration list for PBXNativeTarget "fakestagram" */;
 			buildPhases = (
+				FA1473E14F3BE1CA0DB3C592 /* [CP] Check Pods Manifest.lock */,
 				E0DDF9E9223DF640009EB136 /* Sources */,
 				E0DDF9EA223DF640009EB136 /* Frameworks */,
 				E0DDF9EB223DF640009EB136 /* Resources */,
+				EB5A66CDC5CBCB01619C6B44 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,6 +372,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0DDFA0D223DF642009EB136 /* Build configuration list for PBXNativeTarget "fakestagramTests" */;
 			buildPhases = (
+				09ADF1FC684A7BBDB05BB0B4 /* [CP] Check Pods Manifest.lock */,
 				E0DDF9FD223DF642009EB136 /* Sources */,
 				E0DDF9FE223DF642009EB136 /* Frameworks */,
 				E0DDF9FF223DF642009EB136 /* Resources */,
@@ -307,6 +432,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041CA6322299C7E3006A3C9B /* PostThumbnailCollectionViewCell.xib in Resources */,
 				E0DDFA22223DFE73009EB136 /* PostCollectionViewCell.xib in Resources */,
 				E0BB9753223F5DFB00D028A1 /* Names.plist in Resources */,
 				E0DDF9FB223DF642009EB136 /* LaunchScreen.storyboard in Resources */,
@@ -325,6 +451,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09ADF1FC684A7BBDB05BB0B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fakestagramTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB5A66CDC5CBCB01619C6B44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fakestagram/Pods-fakestagram-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SAMKeychain/SAMKeychain.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SAMKeychain.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-fakestagram/Pods-fakestagram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA1473E14F3BE1CA0DB3C592 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fakestagram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E0DDF9E9223DF640009EB136 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -332,13 +527,22 @@
 			files = (
 				E0DDFA29223E03DC009EB136 /* Author.swift in Sources */,
 				E0DDFA2B223E04A3009EB136 /* Identicon.swift in Sources */,
+				041CA62E2299C75B006A3C9B /* ProfilePostsClient.swift in Sources */,
+				041CA6312299C7E3006A3C9B /* PostThumbnailCollectionViewCell.swift in Sources */,
 				E0BB974F223F552B00D028A1 /* UIDevice+Info.swift in Sources */,
 				E0BCD23922489DFB00B4E0F6 /* Status.swift in Sources */,
 				E0DDFA21223DFE73009EB136 /* PostCollectionViewCell.swift in Sources */,
+				FE84A35B2273DF0F007BF7BB /* LikeClient.swift in Sources */,
+				041CA6272299A1EA006A3C9B /* ComentsViewController.swift in Sources */,
 				E04FB2DE2249F2D300B81C8A /* StorageType.swift in Sources */,
+				FE25D327227CEDD3004BE2CF /* NotificationNames.swift in Sources */,
 				E0DDFA25223E0017009EB136 /* SVGView.swift in Sources */,
+				FE84A3572273C7B2007BF7BB /* DataStore.swift in Sources */,
+				FE9CC24D227DDCCF00FC0E27 /* CodableStorage.swift in Sources */,
 				E04FB2E22249F52900B81C8A /* AccountStorage.swift in Sources */,
+				FED3D5982274BDFC009139F3 /* CreatePostClient.swift in Sources */,
 				E04FB2DC2249F2AB00B81C8A /* CodableStore.swift in Sources */,
+				FED3D5932274A41E009139F3 /* CameraViewController.swift in Sources */,
 				E0BCD23B22489E2300B4E0F6 /* HttpResponse.swift in Sources */,
 				E0DDFA31223E181C009EB136 /* PostDetailViewController.swift in Sources */,
 				E0BB974D223F45EA00D028A1 /* Account.swift in Sources */,
@@ -348,9 +552,21 @@
 				E0DDFA2E223E0EF2009EB136 /* TimelineViewController.swift in Sources */,
 				E0BB9755223F5EDA00D028A1 /* Name.swift in Sources */,
 				E0DDF9F1223DF640009EB136 /* AppDelegate.swift in Sources */,
+				041CA62C2299A5B7006A3C9B /* Coment+Post.swift in Sources */,
+				FE84A3532273B474007BF7BB /* AccountClient.swift in Sources */,
+				FE9CC24B227DDC4E00FC0E27 /* ImageCacheStorage.swift in Sources */,
+				FE25D32A227CF4FC004BE2CF /* ProfileViewController.swift in Sources */,
+				FED3D5962274A6EB009139F3 /* UImage+Base64.swift in Sources */,
+				FE9CC251227DDD1200FC0E27 /* ImageCache.swift in Sources */,
+				041CA62A2299A279006A3C9B /* CreateCometClient.swift in Sources */,
 				E0BB9748223F444B00D028A1 /* Client.swift in Sources */,
+				FE9CC24F227DDCE800FC0E27 /* DataContainer.swift in Sources */,
 				E0DDFA27223E029A009EB136 /* PostAuthorView.swift in Sources */,
+				FE84A3592273DE9C007BF7BB /* Like.swift in Sources */,
+				FE84A3552273C39D007BF7BB /* ImageStore.swift in Sources */,
+				FE9CC253227DDE0D00FC0E27 /* ImageStorage.swift in Sources */,
 				E0BB9751223F57C400D028A1 /* Date+timestamp.swift in Sources */,
+				FE3A4479226251B400E2C7E7 /* TimeLineClient.swift in Sources */,
 				E0BB974A223F449700D028A1 /* Secrets.swift in Sources */,
 				E0BB9757223F6A3500D028A1 /* AccountRepo.swift in Sources */,
 			);
@@ -512,6 +728,7 @@
 		};
 		E0DDFA0B223DF642009EB136 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A15E595C429EDF58567C55F /* Pods-fakestagram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,13 +740,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.3zcurdia.fakestagram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		E0DDFA0C223DF642009EB136 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D2472B2177E02580018382E /* Pods-fakestagram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,13 +759,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.3zcurdia.fakestagram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		E0DDFA0E223DF642009EB136 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FF1B7E80B40A3AF91E73F91 /* Pods-fakestagramTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -569,6 +788,7 @@
 		};
 		E0DDFA0F223DF642009EB136 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8102F2999F14020263220659 /* Pods-fakestagramTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
